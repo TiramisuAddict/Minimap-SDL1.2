@@ -12,8 +12,6 @@
   ![screenshot](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzEzMmdkbHJobGkyNXViNXV0MTVtamkxc2VlZzc1N2YxYzE4YmYwcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/54quFw5JcDE347Sf94/giphy.gif)
 </div>
 
-
-
 ## Description
 Secondary functionalities along with a minimap for a 2D game made with C & SDL 1.2 Library :
 * <strong>init_minimap</strong> : Initializes the minimap.
@@ -26,5 +24,12 @@ Secondary functionalities along with a minimap for a 2D game made with C & SDL 1
 * <strong>collisionPP</strong> : Perfect Pixel Collision between the player and a specific color (black) in the background.
 * <strong>sauvegarder</strong> : Saves the game state to a file.
 * <strong>charger</strong> : Loads the game state from a file.
+
+## How to use
+* Call the desiered functions in your `main.c` with your own `resources`.
+* For testing <mark>PPCollision</mark>  :<br>
+  1- go inside the folder. <br>
+  2- run makefile by typing `make`. <br>
+  3- run the program by typing `./prog`. 
 
 ## Related
