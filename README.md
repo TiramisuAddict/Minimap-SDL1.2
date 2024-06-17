@@ -21,7 +21,7 @@ Secondary functionalities along with a minimap for a 2D game made with C & SDL 1
 * <strong>afficher_minimap</strong> : Displays the minimap on the screen.
 * <strong>liberer_minimap</strong> : Frees the resources allocated for the minimap.
 * <strong>affichertempsen</strong> : Displays the elapsed time since the start time.
-* <strong>affichertemps</strong> : Displays the given time.
+* <strong>affichertemps</strong> : Displays a mini stopwatch.
 * <strong>GetPixel</strong> : Returns the color of the pixel at the given coordinates.
 * <strong>collisionPP</strong> : Perfect Pixel Collision between the player and a specific color (black) in the background.
 * <strong>sauvegarder</strong> : Saves the game state to a file.
