@@ -34,8 +34,6 @@ void liberer_minimap(Minimap* m);
 void affichertempsen(Uint32 startTime);
 void affichertemps(int temps);
 
-void animerMinimap(Minimap* m);
-
 SDL_Color GetPixel(SDL_Surface* pSurface, int x, int y);
 int collisionPP(SDL_Rect player_pos, SDL_Surface *background, SDL_Color color);
 
