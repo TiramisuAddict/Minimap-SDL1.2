@@ -28,7 +28,3 @@ Secondary functionalities along with a minimap for a 2D game made with C & SDL 1
 * <strong>charger</strong> : Loads the game state from a file.
 
 ## Related
-
-[Noti-beta](https://github.com/TiramisuAddict/Noti-Betab) - The testing version of the app from 2022 to 2024.
-
-
