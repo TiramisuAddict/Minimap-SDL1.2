@@ -81,10 +81,10 @@ int main(int argc, char *argv[]) {
     int running = 1;
     Uint8 *keystate;
     while (running) {
-	prevRect = rect; // Store the previous position
+	prevRect = rect;
 
-	SDL_PumpEvents(); // Update the state of the input devices
-	keystate = SDL_GetKeyState(NULL); // Get the current state of the keyboard
+	SDL_PumpEvents();
+	keystate = SDL_GetKeyState(NULL);
 
 	while (SDL_PollEvent(&event))
         {
@@ -96,7 +96,7 @@ int main(int argc, char *argv[]) {
 
 	if (keystate[SDLK_UP]) {
 	    rect.y -= 2.5;
-	    if (collisionPP(rect, image, (SDL_Color){0, 0, 0, 255})) // If collision, revert to previous position
+	    if (collisionPP(rect, image, (SDL_Color){0, 0, 0, 255}))
 	        rect = prevRect;
 	}
 	if (keystate[SDLK_DOWN]) {
@@ -119,7 +119,6 @@ int main(int argc, char *argv[]) {
         SDL_FillRect(screen, &rect, SDL_MapRGB(screen->format, 255, 255, 255));
 
         SDL_Flip(screen);
-        //SDL_Delay(20);
     }
 
     SDL_FreeSurface(background);
