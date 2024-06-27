@@ -27,7 +27,7 @@ Secondary functionalities along with a minimap for a 2D game made with C & SDL 1
 
 ## How to use
 * Call the desiered functions in your `main.c` with your own `resources`.
-* For testing <mark>PPCollision</mark>  :<br>
+* For testing :<br>
   1- go inside the folder. <br>
   2- run makefile by typing `make`. <br>
   3- run the program by typing `./prog`. 
